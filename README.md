@@ -9,17 +9,16 @@
 - Rogério Gonçalves da Silva, 2231346 
 - Willy Paulino de Oliveira Gomes, 2221112
 
----
+
 
 ## Tema do PI
 Desenvolver um software com **framework web** que utilize **banco de dados**, inclua Script Web (**JavaScript**), **nuvem**, uso de **API**, **acessibilidade**, **controle de versão** e **testes**. Opcionalmente incluir análise de dados.
 
----
+
 
 ## Descrição do Projeto
 Landing Page
 
----
 
 
 ## Tecnologias Utilizadas
@@ -27,7 +26,6 @@ Landing Page
 - Front-End: JavaScript (React)
 - Banco de Dados (SQLite)
 
----
 
 
 ## Estrutura do Projeto
@@ -58,7 +56,6 @@ Landing Page
 ├── README.md
 ```
 
----
 
 
 ## Instalação, Configuração e Execução
@@ -80,6 +77,7 @@ python -version
 ### 1. Clonar o projeto do GitHub
 ```bash
 git clone <https://github.com/cintia-shinoda/projeto-integrador-2.git>
+
 cd projeto-integrador-2
 ```
 <br>
