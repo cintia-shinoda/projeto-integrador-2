@@ -21,6 +21,43 @@ Landing Page
 
 ---
 
+
+## Tecnologias Utilizadas
+- Back-End: Python (Django)
+- Front-End: JavaScript (React)
+- Banco de Dados (SQLite)
+
+---
+
+
+## Estrutura do Projeto
+
+|-- backend/
+|   |-- backend/
+|   |   |-- __init__.py
+|   |   |-- asgi.py
+|   |   |-- settings.py
+|   |   |-- urls.py
+|   |   |-- wsgi.py
+|   |
+|   |-- vouchers/
+|   |   |-- __init__.py
+|   |   |-- admin.py
+|   |   |-- apps.py
+|   |   |-- migrations/
+|   |   |-- models.py
+|   |   |-- tests.py
+|   |   |-- views.py
+|   |-- db.sqlite3
+|   |-- manage.py
+|
+|-- venv/
+|
+|-- README.md
+
+---
+
+
 ## Instalação, Configuração e Execução
 
 ### 0. Certificar-se de ter Python 3 instalado
@@ -40,6 +77,7 @@ python -version
 ### 1. Clonar o projeto do GitHub
 ```bash
 git clone <https://github.com/cintia-shinoda/projeto-integrador-2.git>
+cd projeto-integrador-2
 ```
 <br>
 
@@ -77,7 +115,9 @@ pip install -r requirements.txt
 <br>
 
 
-### 5. Executar o projeto
+### 5. Executar
 ```bash
-
+cd backend
+# python3 manage.py migrate
+python3 manage.py runserver
 ```
