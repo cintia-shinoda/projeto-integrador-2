@@ -32,28 +32,31 @@ Landing Page
 
 ## Estrutura do Projeto
 
+```bash
 ├── backend/
-├   ├── backend/
-├   ├   ├── __init__.py
-├   ├   ├── asgi.py
-├   ├   ├── settings.py
-├   ├   ├── urls.py
-├   ├   ├── wsgi.py
-├   ├
-├   ├── vouchers/
-├   ├   ├── __init__.py
-├   ├   ├── admin.py
-├   ├   ├── apps.py
-├   ├   ├── migrations/
-├   ├   ├── models.py
-├   ├   ├── tests.py
-├   ├   ├── views.py
-├   ├── db.sqlite3
-├   ├── manage.py
-├
+│   ├── backend/
+│   │   ├── __init__.py
+│   │   ├── asgi.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   ├── wsgi.py
+│   │
+│   ├── vouchers/
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── migrations/
+│   │   ├── models.py
+│   │   ├── tests.py
+│   │   ├── views.py
+│   │
+│   ├── db.sqlite3
+│   ├── manage.py
+│
 ├── venv/
-├
+│
 ├── README.md
+```
 
 ---
 
