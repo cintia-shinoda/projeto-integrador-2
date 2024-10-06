@@ -119,5 +119,6 @@ pip install -r requirements.txt
 ### 5. Executar
 ```bash
 cd backend
+
 python3 manage.py runserver
 ```
